@@ -252,14 +252,14 @@ nav li:hover {
 
 
 h2 {
-  padding-top: 20px;
+  padding-top: 32px;
 }
 
 .machinery {
-  margin: 32px;
+  margin: auto;
   text-align: center;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(200px, 1fr));
 }
 
 .machinery p{
@@ -272,9 +272,10 @@ h2 {
 }
 
 .rental {
-  margin: 32px;
+  margin: auto;
   text-align: center;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(200px, 1fr));
 }
 
 .rental p {
@@ -330,6 +331,13 @@ footer li a:hover {
     width:284px;
   }
 
+
+
+  h2 {
+    margin: 0;
+    padding-top: 32px;
+  }
+
   .machinery {
     display: grid;
     grid-template-columns: repeat(3, minmax(100px, 1fr));
@@ -338,14 +346,16 @@ footer li a:hover {
     width: 100px;
     height: 100px;
   }
-
-  h2 {
-    padding-top: 10px;
+  .machinery p {
+    font-size: 10px;
   }
 
   .rental {
     display: grid;
     grid-template-columns: repeat(3, minmax(100px, 1fr));
+  }
+  .rental p {
+    font-size: 10px;
   }
   .rental img {
     width: 100px;
