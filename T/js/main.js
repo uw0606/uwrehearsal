@@ -27,7 +27,7 @@
       document.getElementById(clickedItem.dataset.id).classList.add('active');
     });
     homeclick.addEventListener('click', () => {
-      window.location.href = "index.html"
+      window.location.href = "https://uw0606.github.io/uwrehearsal/"
     });
     Tclick.addEventListener('click', () => {
       window.location.href = "index.html"
