@@ -379,6 +379,9 @@ footer li a:hover {
     display: block;
   }
   .setting img {
-    width: 320px;
+    width: 360px;
+  }
+  .contents {
+    margin:  0 16px 0 16px;
   }
 }
