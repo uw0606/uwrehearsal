@@ -375,10 +375,10 @@ footer li a:hover {
   }
 
   .setting {
-    margin:  0 32px 0 32px;
+    margin:  0 16px 0 16px;
     display: block;
   }
   .setting img {
-    width: 320px;
+    width: 400px;
   }
 }
