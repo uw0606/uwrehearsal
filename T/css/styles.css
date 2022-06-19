@@ -1,0 +1,341 @@
+body {
+  margin: 0px;
+  font-family: Verdana, sans-serif;
+}
+
+header {
+  padding: 0 16px;
+}
+
+header h1 {
+  color: black;
+  font-size: 54px;
+  line-height: 64px;
+  text-align: center;
+  margin: 16px 0 16px 0;
+}
+
+
+
+
+/* タブメニュー */
+.container {
+  margin: 30px auto;
+  width: 500px;
+}
+.tab {
+  display: flex;
+  line-height: 40px;
+}
+.tab li {
+  width: 300px;
+}
+.tab li a {
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  padding: 8px 0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px 4px 0 0;
+}
+.tab li a.active {
+  background: #333;
+  color: #fff;
+}
+.tab li a:not(.active):hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+.content.active {
+  background: #333;
+  color: #fff;
+  min-height: auto;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+.content {
+  display: none;
+}
+
+  /* T */
+.T {
+  list-style: none;
+  padding: 0; 
+  margin: 0;  
+}
+.T li {
+  padding: 8px;
+}
+.T li a {
+  color:rgb(247, 244, 244);
+  text-decoration: none;
+  cursor: pointer; 
+}
+.T li a:hover {
+  opacity: 0.5;
+}
+/* K */
+.K {
+  list-style: none;
+  padding: 0;
+  margin: 0;  
+}
+.K li {
+  padding: 8px;
+}
+.K li a {
+  color:rgb(247, 244, 244);
+  text-decoration: none;
+  cursor: pointer;
+}
+.K li a:hover {
+  opacity: 0.5;
+}
+/* Aメニュー */
+.A {
+  list-style: none;
+  padding: 0;
+  margin: 0;  
+}
+.A li {
+  padding: 8px;
+}
+.A li a {
+  color:rgb(247, 244, 244);
+  text-decoration: none;
+  cursor: pointer;
+}
+.A li a:hover {
+  opacity: 0.5;
+}
+/* Nメニュー */
+.N {
+  list-style: none;
+  padding: 0;
+  margin: 0;  
+}
+.N li {
+  padding: 8px;
+}
+.N li a {
+  color:rgb(247, 244, 244);
+  text-decoration: none;
+  cursor: pointer;
+}
+.N li a:hover {
+  opacity: 0.5;
+}
+/* SEメニュー */
+.SE {
+  list-style: none;
+  padding: 0;
+  margin: 0;  
+}
+.SE li {
+  padding: 8px;
+}
+.SE li a {
+  color:rgb(247, 244, 244);
+  text-decoration: none;
+  cursor: pointer;
+}
+.SE li a:hover {
+  opacity: 0.5;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 8px;
+  padding: 56px 0 8px;
+  text-decoration: none;
+}
+
+.name {
+  font-size: 24px;
+  text-decoration: none;
+}
+
+
+/* Sメニュー */
+.S {
+  list-style: none;
+  padding: 0;
+  margin: 0;  
+}
+.S li {
+  padding: 8px;
+}
+.S li a {
+  color:rgb(247, 244, 244);
+  text-decoration: none;
+  cursor: pointer;
+}
+.S li a:hover {
+  opacity: 0.5;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 8px;
+  padding: 56px 0 8px;
+  text-decoration: none;
+}
+
+.name {
+  font-size: 24px;
+  text-decoration: none;
+}
+
+
+/* スライドショー */
+main {
+  width: 600px;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#freedomeuwt-1 {
+  width: 100%;
+  height: 100%;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+img {
+  vertical-align: bottom;
+}
+nav {
+  margin: 8px;
+}
+nav ul {
+  display: flex;
+  width:584px;
+}
+nav li {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 4px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+} 
+nav li:hover {
+  background: #f8f8f8;
+}
+#prev, #next {
+  width: 100%;
+}
+.thumbnails {
+  display: grid;
+  grid-template-columns: repeat(4, 146px);
+  gap: 5px;
+}
+.thumbnails li {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.thumbnails li:hover,
+.thumbnails li.current {
+  opacity: 1;
+}
+.thumbnails img {
+  width: 146px;
+  margin-bottom: 62px;
+}
+
+
+
+.machinery {
+  margin: 32px;
+  text-align: center;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.machinery img {
+  width: 150px;
+  height: 150px;
+}
+
+.rental {
+  margin: 32px;
+  text-align: center;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.rental img {
+  width: 150px;
+  height: 150px;
+}
+
+
+
+
+/* フッター */
+footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 32px;
+  background: rgba(0, 0, 0, 0.6);
+  display: block;
+}
+footer li a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+footer li a:hover {
+  opacity: 0.5;
+}
+
+
+@media (max-width: 600px) {
+  #top {
+    font-size: 46px;
+  }
+
+  h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 8px;
+    padding: 56px 0 8px;
+  }
+
+  .tab li a {
+    font-size: 14px;
+  }
+  main {
+    width: 300px;
+    margin: 0 auto;
+  }
+  nav ul {
+    width:284px;
+  }
+
+  .machinery {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+  }
+  .machinery img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .rental {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+  }
+  .rental img {
+    width: 100px;
+    height: 100px;
+  }
+}
