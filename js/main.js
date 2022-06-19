@@ -30,7 +30,7 @@
       window.location.href = "index.html"
     });
     Tclick.addEventListener('click', () => {
-      window.location.href = "index.html"
+      window.location.href = "file:///Users/zuikeiranyuuta/Desktop/UW_Rehearsal/T/T.html"
    });
     Kclick.addEventListener('click', () => {
       window.location.href = "index.html"
