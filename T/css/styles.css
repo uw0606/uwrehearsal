@@ -390,6 +390,10 @@ footer li a:hover {
   .images {
     text-align: center;
   }
+  .images img + img {
+    margin: 16px;
+
+  }
   .contents {
     margin:  0 16px 0 16px;
   }
