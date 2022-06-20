@@ -32,21 +32,21 @@
     Tclick.addEventListener('click', () => {
       window.location.href = "https://uw0606.github.io/uwrehearsal/T/T.html"
    });
-    Kclick.addEventListener('click', () => {
-      window.location.href = "index.html"
-    });
-    Aclick.addEventListener('click', () => {
-      window.location.href = "index.html"
-    });
-    Nclick.addEventListener('click', () => {
-      window.location.href = "index.html"
-    });
-    SEclick.addEventListener('click', () => {
-      window.location.href = "index.html"
-    });
-    Sclick.addEventListener('click', () => {
-      window.location.href = "index.html"
-    });
+   Kclick.addEventListener('click', () => {
+    window.location.href = "K/K.html"
+  });
+  Aclick.addEventListener('click', () => {
+    window.location.href = "A/A.html"
+  });
+  Nclick.addEventListener('click', () => {
+    window.location.href = "N/N.html"
+  });
+  SEclick.addEventListener('click', () => {
+    window.location.href = "SE/SE.html"
+  });
+  Sclick.addEventListener('click', () => {
+    window.location.href = "S.html"
+  });
   });
 }
 
