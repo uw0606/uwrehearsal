@@ -49,3 +49,26 @@
     });
   });
 }
+
+// アニメーション
+{
+  function callback(entries) {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) {
+        return;
+      }
+
+      entry.target.classList.add('appear');
+    })
+
+  }
+
+
+  const observer = new IntersectionObserver(callback, {
+    threshold: 0.2,
+  });
+
+  document.querySelectorAll('.animate').forEach(el => {
+    observer.observe(el);
+  });
+}
