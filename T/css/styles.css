@@ -393,4 +393,7 @@ footer li a:hover {
   .contents {
     margin:  0 16px 0 16px;
   }
+  .contents p {
+    font-size: 12px;
+  }
 }
