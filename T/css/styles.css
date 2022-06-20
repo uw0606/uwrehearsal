@@ -251,6 +251,8 @@ nav li:hover {
 }
 
 
+
+/* 内容 */
 h2 {
   padding-top: 32px;
 }
@@ -345,12 +347,15 @@ footer li a:hover {
 
 
 
+  /* 内容 */
+
   h2 {
     margin: 0;
     padding-top: 32px;
   }
 
   .machinery {
+    margin:  0 16px 0 16px;
     display: grid;
     grid-template-columns: repeat(3, minmax(100px, 1fr));
   }
@@ -363,6 +368,7 @@ footer li a:hover {
   }
 
   .rental {
+    margin:  0 16px 0 16px;
     display: grid;
     grid-template-columns: repeat(3, minmax(100px, 1fr));
   }
@@ -380,6 +386,9 @@ footer li a:hover {
   }
   .setting img {
     width: 340px;
+  }
+  .images {
+    text-align: center;
   }
   .contents {
     margin:  0 16px 0 16px;
