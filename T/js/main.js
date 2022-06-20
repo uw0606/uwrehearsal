@@ -39,13 +39,13 @@
       window.location.href = "https://uw0606.github.io/uwrehearsal/A/A.html"
     });
     Nclick.addEventListener('click', () => {
-      window.location.href = "index.html"
+      window.location.href = "https://uw0606.github.io/uwrehearsal/N/N.html"
     });
     SEclick.addEventListener('click', () => {
-      window.location.href = "index.html"
+      window.location.href = "https://uw0606.github.io/uwrehearsal/SE/SE.html"
     });
     Sclick.addEventListener('click', () => {
-      window.location.href = "index.html"
+      window.location.href = "https://uw0606.github.io/uwrehearsal/S/S.html"
     });
   });
 }
