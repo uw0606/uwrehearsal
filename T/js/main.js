@@ -33,7 +33,7 @@
       window.location.href = "https://uw0606.github.io/uwrehearsal/T/T.html"
    });
     Kclick.addEventListener('click', () => {
-      window.location.href = "index.html"
+      window.location.href = "https://uw0606.github.io/uwrehearsal/K/K.html"
     });
     Aclick.addEventListener('click', () => {
       window.location.href = "index.html"
