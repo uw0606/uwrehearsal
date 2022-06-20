@@ -65,7 +65,7 @@
 
 
   const observer = new IntersectionObserver(callback, {
-    threshold: 0.2,
+    threshold: 0.1,
   });
 
   document.querySelectorAll('.animate').forEach(el => {
