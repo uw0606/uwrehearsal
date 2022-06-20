@@ -290,7 +290,7 @@ h2 {
 }
 
 .setting {
-  margin:  0 64px 0 64px;
+  margin:  64px 64px 0 64px;
   display: flex;
 }
 .setting img {
@@ -381,7 +381,7 @@ footer li a:hover {
   }
 
   .setting {
-    margin:  0 16px 0 16px;
+    margin:  48px 16px 0 16px;
     display: block;
   }
   .setting img {
