@@ -279,14 +279,22 @@ h2 {
   display: grid;
   grid-template-columns: repeat(6, minmax(200px, 1fr));
 }
-
 .rental p {
   margin-top: 0;
 }
-
 .rental img {
   width: 150px;
   height: 150px;
+}
+
+.catering {
+  margin: auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(200px, 1fr));
+}
+.catering p {
+  margin-top: 48px;
 }
 
 .setting {
@@ -385,6 +393,15 @@ footer li a:hover {
     height: 100px;
   }
 
+  .catering {
+    margin:  0 16px 0 16px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+  }
+  .catering p {
+    font-size: 10px;
+  }
+
   .setting {
     margin:  48px 16px 0 16px;
     display: block;
@@ -395,9 +412,6 @@ footer li a:hover {
   .images {
     text-align: center;
   }
-  /* .images img + img {
-    margin: 0;
-  } */
   .contents {
     margin:  0 16px 0 16px;
   }
