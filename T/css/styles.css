@@ -296,6 +296,11 @@ h2 {
 .setting img {
   width: 400px;
 }
+
+.images img + img {
+  margin: 16px 0 0 0;
+}
+
 .contents  {
   margin: 0 0 0 12px;
   padding: 0;
@@ -390,10 +395,9 @@ footer li a:hover {
   .images {
     text-align: center;
   }
-  .images img + img {
-    margin: 16px 0 0 0;
-
-  }
+  /* .images img + img {
+    margin: 0;
+  } */
   .contents {
     margin:  0 16px 0 16px;
   }
