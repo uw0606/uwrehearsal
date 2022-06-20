@@ -318,7 +318,7 @@ h2 {
 .animate {
   opacity: 0;
   transform: translateY(40px);
-  transition: opacity .3s, transform .3s;
+  transition: opacity .5s, transform .5s;
 }
 
 .animate.appear {
