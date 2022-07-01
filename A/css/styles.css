@@ -347,6 +347,7 @@ footer li a:hover {
 }
 
 
+
 @media (max-width: 600px) {
   #top {
     font-size: 46px;
@@ -369,7 +370,6 @@ footer li a:hover {
   nav ul {
     width:284px;
   }
-
 
 
   /* 内容 */
